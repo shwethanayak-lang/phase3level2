@@ -1,0 +1,63 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 97%;
+  margin: 0 15px;
+  margin-top: 45px;
+}
+
+th,
+td,
+tr {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#fnameE {
+  float: left;
+}
+#mobileE {
+  float: right;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 25px;
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+button {
+  margin: 20px;
+  padding: 5px;
+  border-radius: 7%;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+}
+
+#add {
+  background-color: #03b897;
+}
+input {
+  width: auto;
+  background-color: #dddddd;
+  border: none;
+}
+
+#remove {
+  float: right;
+  background-color: #b3b803;
+}
+
+.has-success {
+  border: 1px solid green;
+}
+
+.has-error {
+  border: 1px solid red;
+}
