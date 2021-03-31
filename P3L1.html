@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Phase-3 Level-2</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="P3L1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.js"
+      integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <form name="studentable" method="GET" class="forms" action="">
+      <h2>Student Table</h2>
+      <table id="myTable" contenteditable="">
+        <tr>
+          <th>Student Id</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Degree</th>
+          <th>Sub Degree</th>
+          <th>date Of Birth</th>
+          <th>Email Id</th>
+          <th>Mobile Number</th>
+        </tr>
+        <!-- <tr>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><input type="Date" /></td>
+          <td>XXX</td>
+          <td>XX</td>
+        </tr> -->
+        <tr id="addrow">
+          <td id="addnew">1</td>
+          <td id="fname"></td>
+          <td id="lname"></td>
+          <td id="degree"></td>
+          <td></td>
+          <td><input type="date" id="DOB" /></td>
+          <td id="email">XXX</td>
+          <td id="mobile">XX</td>
+        </tr>
+      </table>
+    </form>
+
+    <button class="button" onclick="addRow()" id="add">Add Row</button>
+    <button class="button" onclick="removeRow()" id="remove">Remove Row</button>
+    <!-- <button class="button" onclick="clearRow()" id="clear">Clear Row</button> -->
+    <!-- <button class="button" onclick="validate()">Submit</button> -->
+    <p>
+      <b
+        >Added Row will be the top row . Do the row edit in the same except
+        student ID</b
+      >
+    </p>
+
+    <script src="P3L1.js"></script>
+  </body>
+</html>
